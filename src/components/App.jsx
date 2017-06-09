@@ -17,7 +17,7 @@ class App extends Component {
               type="button"
               className="btn btn-success"
             >
-              Add Reminder  
+              Add Reminder
             </button>
           </div>
         </div>
