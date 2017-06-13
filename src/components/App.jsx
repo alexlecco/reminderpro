@@ -42,10 +42,10 @@ class App extends Component {
   }
 }
 
-/*
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators({addReminder}, dispatch)
+function mapStateToProps(state) {
+  return {
+    reminders: state
+  }
 }
-*/
 
-export default connect(null, { addReminder })(App)
+export default connect(mapStateToProps, { addReminder })(App)
