@@ -45,6 +45,7 @@ class App extends Component {
 function mapStateToProps(state) {
   return {
     reminders: state
+    //comment
   }
 }
 
